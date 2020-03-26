@@ -3,6 +3,8 @@ def roll_call_dwarves(name)# code an argument here
   seven_dwarves = []
   name.each_with_index do |dwarf, index|
     seven_dwarves << "#{index}. #{dwarf}"
+  end
+  seven_dwarves
 end
 
 def summon_captain_planet# code an argument here
